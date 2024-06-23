@@ -1,10 +1,10 @@
 let score = undefined
-// console.log(typeof score);
-// console.log(typeof (score));
+console.log(typeof score);
+console.log(typeof (score));
 
 let valueInNumber = Number(score)
-// console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
 // "33" => 33
 // "33abc" => NaN
@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 
 let isloggedin ="gaurav"
 let booleanisloggedin = Boolean(isloggedin)
-// console.log(booleanisloggedin);
+console.log(booleanisloggedin);
 
 // 1=> true ; 0=> false
 // "" => false
@@ -22,8 +22,8 @@ let booleanisloggedin = Boolean(isloggedin)
 
 let somenumber = 33
 let stringnumber = String(somenumber)
-// console.log(stringnumber);
-// console.log(typeof stringnumber);
+console.log(stringnumber);
+console.log(typeof stringnumber);
 
 // ************************ OPERATIONS ************************
 let value=3
