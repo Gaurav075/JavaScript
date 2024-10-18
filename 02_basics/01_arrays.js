@@ -9,20 +9,22 @@ console.log(myarr[0]);
 
 // array methods
 
-// myarr.push(6)
-// myarr.push(7)
-// myarr.pop(7)
+myarr.push(6)
+myarr.push(7)
+myarr.pop(7)
 
-// myarr.unshift(9)
-// myarr.shift()
+myarr.unshift(9)
+console.log(myarr)
+myarr.shift()
+console.log(myarr)
 
-// console.log(myarr.includes(9));
-// console.log(myarr.indexOf(3));
+console.log(myarr.includes(9));
+console.log(myarr.indexOf(3));
 
-// const newarr = myarr.join()
+const newarr = myarr.join()
 
-// console.log(myarr);
-// console.log(newarr);
+console.log(myarr);
+console.log(newarr);
 
 // slice , splice
 
