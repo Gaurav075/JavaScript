@@ -9,18 +9,18 @@ function saymyname() {
 
 // saymyname()
 
+// function addTwonumbers (number1,number2) {
+//     console.log(number1+number2);
+// }
 function addTwonumbers (number1,number2) {
-    console.log(number1+number2);
-}
-function addTwonumbers (number1,number2) {
-    // let result = number1 + number2
-    // console.log("gaurav");
+    let result = number1 + number2
+    console.log("gaurav");
     return number1 + number2
 }
 
 
-// addTwonumbers(3,4)
-result = addTwonumbers(3,4)
+addTwonumbers(3,4)
+// result = addTwonumbers(3,4)
 // console.log("Result: ",result);
 
 function loginUserMessage(username="sam") {
@@ -51,10 +51,10 @@ const user = {
 
 function handleObject(anyobject)
 {
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.prices}`);
 }
 
-// handleObject(user)
+handleObject(user)
 
 handleObject({
     username : "sam",

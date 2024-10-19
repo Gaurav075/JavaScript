@@ -8,9 +8,9 @@ const user = {
     }
 }
 
-// user.welcomemessage()
-// user.username = "Sam"
-// user.welcomemessage()
+user.welcomemessage()
+user.username = "Sam"
+user.welcomemessage()
 console.log(this);
 
 // function coffee(){
@@ -25,12 +25,12 @@ console.log(this);
 // }
 
 // coffee()
-// const coffee = ()=> {
-//     let username = "Gaurav"
-//     console.log(this);
-// }
+const coffee = ()=> {
+    let username = "Gaurav"
+    console.log(this);
+}
 
-// coffee()
+coffee()
 
 // const addtwo = (num1,num2)=> {
 //     return num1+num2

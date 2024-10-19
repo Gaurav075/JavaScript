@@ -5,7 +5,7 @@ if(true)
     {
         let a=20
         const b = 30
-        // console.log("inner:",a);
+        console.log("inner:",a);
     }
 console.log(a);
 // console.log(b);
@@ -22,7 +22,7 @@ function one()
 
     }
     // console.log(website);
-    two()
+    // two()
 }
 // one()
 
@@ -32,7 +32,7 @@ if(true)
         if(username == "Gaurav")
             {
                 const website = "YouTube"
-                // console.log(username+website);
+                console.log(username+website);
             }
             // console.log(website);
     }
@@ -47,8 +47,9 @@ if(true)
     }
 
 
-    addtwo(5)  // error aa jayega isme
-    const addtwo = function(num){
+    // addtwo(5)  // error aa jayega isme
+    // console.log(addtwo(5))
+    const addtwo=function (num){
 
         return num+2
     }
